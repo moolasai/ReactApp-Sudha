@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+    color: black;
+
+}
+.img {
+    width: 500px;
+    padding-top: 22px;
+    height: 500px;
+    padding: 10px;
+    margin-left: 4rem;
+        transition: transform .2s;
+        margin: 0 auto;
+      
+        z-index: 9;
+        position: relative;
+}
+.img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.container {
+    padding-top: 20px;
+    
+}
+
+.body {
+    background-color: antiquewhite;
+    padding: 21px;  
+}
